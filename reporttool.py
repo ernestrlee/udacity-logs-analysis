@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # "Database code" for the Udacity Logs Analysis project.
 
 import psycopg2
