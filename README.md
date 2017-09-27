@@ -15,17 +15,17 @@ The VM is configured using files that can be found in the below link:
 - https://github.com/udacity/fullstack-nanodegree-vm
 
 The database file used for the project can be found here:
-https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip
+-https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip
 
 Lastly, download the following file and place it into the same folder as the database file:
 - reporttool.py
 
 ## How to use the Logs Analysis tool
 
-Run the command line tool.
-Start your virtual machine.  If using Vagrant, this is usually done by using the "vagrant up" command followed by "vagrant ssh".
-Navigate to the directory that contains the "newsdata.sql" database as well as the "reporttool.py" file.
-Using Python, run the file, "reporttool.py".
+1. Run the command line tool.
+2. Start your virtual machine.  If using Vagrant, this is usually done by using the "vagrant up" command followed by "vagrant ssh".
+3. Navigate to the directory that contains the "newsdata.sql" database as well as the "reporttool.py" file.
+4. Using Python, run the file, "reporttool.py".
 
 The program will run three queries and print out the following information from the database:
 1. The top three most popular articles.
