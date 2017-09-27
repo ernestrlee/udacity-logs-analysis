@@ -3,7 +3,7 @@
 
 ## How to install
 
-Start by installing Python to your system.  For the latest version, please visit the [Python website](https://www.python.org/).
+Start by installing Python 2 to your system.  For the latest version, please visit the [Python website](https://www.python.org/).
 Next, install a command line tool such as [Git BASH](https://git-for-windows.github.io/).
 
 A virtual machine (VM) is also needed to run the SQL database server.  For this project, Vagrant and VirtualBox were used.
