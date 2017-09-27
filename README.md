@@ -15,7 +15,7 @@ The VM is configured using files that can be found in the below link:
 - https://github.com/udacity/fullstack-nanodegree-vm
 
 The database file used for the project can be found here:
--https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip
+- https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip
 
 Lastly, download the following file and place it into the same folder as the database file:
 - reporttool.py
