@@ -25,8 +25,8 @@ def printResult(title, result, delimiter, endtag):
     print title
     print "\n"
     for a, b in result:
-        if delimiter == '"':
-            dlmtr = '\"'
+        if delimiter == "\"":
+            dlmtr = "\""
         elif delimiter == "'":
             dlmtr = "\'"
         else:
