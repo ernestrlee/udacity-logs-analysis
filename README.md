@@ -3,7 +3,7 @@
 
 ## How to install
 
-Start by installing Python 2 to your system.  For the latest version, please visit the [Python website](https://www.python.org/).
+Start by installing Python to your system.  For the latest version, please visit the [Python website](https://www.python.org/).
 Next, install a command line tool such as [Git BASH](https://git-for-windows.github.io/).
 
 A virtual machine (VM) is also needed to run the SQL database server.  For this project, Vagrant and VirtualBox were used.
@@ -14,10 +14,14 @@ Files can be found from the links below:
 The VM is configured using files that can be found in the below link:
 - https://github.com/udacity/fullstack-nanodegree-vm
 
-The database file used for the project can be found here:
+The database file, "newsdata.sql", used for the project can be found here:
 - https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip
 
-Lastly, download the following file and place it into the same folder as the database file:
+To load the data into your local database, place the file into the vagrant directory.  Use the command "psql -d news -f newsdata.sql".
+This command will use PostgreSQL to connect to the database named "news", run the SQL statements in the file
+"newsdata.sql", and create and populate the tables with data needed for this project.
+
+Lastly, download the following file and place it into the same folder as the database file, "news" that was created above:
 - reporttool.py
 
 ## How to use the Logs Analysis tool
